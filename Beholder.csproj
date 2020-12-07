@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>dotnet-Beholder-5E169907-1C85-4BB8-A166-5DE2B4ACBEE0</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="aliyun-net-sdk-dcdn" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.10" />
+    <PackageReference Include="Nito.AsyncEx.Coordination" Version="5.1.0" />
+    <PackageReference Include="ZString" Version="2.2.0" />
+  </ItemGroup>
+</Project>
